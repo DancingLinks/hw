@@ -72,10 +72,12 @@ class LogisticRegression:
 		self.__beta = self.__beta.T.getA()[0]
 
 
-	def show(self, c0='r', c1='b'):
+	def show(self, c0='b', c1='r'):
 		plt.figure(1)
 		self.__y_range.append(-(self.__beta[2] + self.__beta[0] * self.__x_range[0]) / self.__beta[1])
 		self.__y_range.append(-(self.__beta[2] + self.__beta[0] * self.__x_range[1]) / self.__beta[1]) 
+		plt.xlabel('Sepal length')
+		plt.ylabel('Sepal width')
 		plt.plot(self.__x_range, self.__y_range)
 		plt.scatter(self.__figure_x_label[0][0], self.__figure_x_label[0][1], c=c0)
 		plt.scatter(self.__figure_x_label[1][0], self.__figure_x_label[1][1], c=c1)
