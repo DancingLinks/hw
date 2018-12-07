@@ -1,5 +1,5 @@
 # Assignment 1 
-auth: Qian yu 1831582
+Qian yu 1831582
 
 
 
@@ -150,7 +150,7 @@ python example.py
 
 ​	After running the example, it will give the result of logistic regression by showing a diagram like this:
 
-![Figure_1](/home/price/workspace/hw/hw1/Figure_1.png)
+![Figure_1](F:\workspace\hw1\doc\Figure_1.png)
 
 ​	The blue points represent the records which labels are Iris-setosa while the red points Iris-versicolor and the line represent the result of logistic regression. The result line implements the binary classification of dataset by logistic regression with newton method.
 
